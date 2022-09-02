@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: docker.io/goracle2388/reverseproxy:v1
+        image: docker.io/goracle2388/udagram-reverseproxy:v1
         ports:
         - containerPort: 80
         resources:
